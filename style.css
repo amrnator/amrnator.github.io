@@ -1,0 +1,79 @@
+
+
+/* default body template for all webpages */
+body{
+    background-color: #FDFDFD;
+    color: #353535;
+    font: normal 27px Georgia, serif;
+    text-rendering: optimizeLegibility;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+/*sets color of the links*/
+a{
+    color: #0066ff;
+    text-decoration: none;
+}
+
+/* Title */
+
+.title{
+    display: inline-block;
+    font: normal 27px Georgia, serif;
+}
+
+/* color for title link */
+.title a{
+    color: #353535;
+}
+
+/* color for title when hovered over */
+.title a:hover{
+    color: #0066ff;
+    transition-delay: 1s fade;
+    text-decoration: underline;
+}
+
+/* NAV */
+
+nav{
+    font: normal 18px Georgia, serif;
+    float: right;
+    display: inline;
+    line-height: 45px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+/* force text to be inlined in a list */
+nav ul li{
+    display: inline;
+}
+
+/* draw a line when hovering over anything in the nav */
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+/* remove list details in the footer */
+.footer ul{
+    list-style-type: none;
+}
+
+/* display the footer in one line */
+.footer ul li{
+    display: inline;
+    padding: 6%;
+}
+
+/* underline the text in the footer on hover */
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+
