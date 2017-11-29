@@ -92,11 +92,16 @@ nav ul li .nav-pad{
 /* Index container */
 
 .index-container{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 } 
 
 /* Blog list */
+
+.blog-list{
+    padding-left: 0%;
+    padding-right: 0%;
+} 
 
 .blog-list a{
     color: #353535;
@@ -109,7 +114,7 @@ nav ul li .nav-pad{
 }
 
 .blog-list li{
-    padding-bottom: 30px;
+    padding-bottom: 48px;
 
 }
 
