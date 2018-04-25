@@ -1,59 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
+    <title>Amr Saleh | Blogs</title>
 
-<!DOCTYPE html>
+    <!-- Bootstrap CSS CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<html>
-    <head>
-        <title> Amr - Blogs </title>
-        <link rel="stylesheet" type="text/css" href="./style.css" media="screen" charset="utf-8"/>
-    </head>
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
 
-    <body>
-    	<!-- Title -->
-    	<div class="title">
-            <p> <a href="./index.html">Amr Saleh</a> </p>
-        </div>
+  <body>
 
-    	<!-- Header -->
-        <nav>
-            <ul>
-                <li><a href="./blog-menu.html"> blog </a> <span class="nav-pad">|</span></li>
-                <li><a href="./projects.html"> projects </a> <span class="nav-pad">|</span></li>    
-                <li><a href="./about.html"> about </a> <span class="nav-pad">|</span></li>
-                <li><a href="./resume.pdf" target="_tab"> resume </a></li>
+    <!-- NAVBAR 
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-3 mr-0 text-center" href="#">Home</a>
+    </nav> -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-3 d-none d-md-block bg-light sidebar">
+
+          <!--SIDEBAR-->
+          <div class="sidebar-sticky">
+
+            <!-- profile pic-->
+            <img src="self.jpeg" class="img-fluid rounded-circle mx-auto d-block border border-primary" style="width:60%">
+
+            <h2 class = "text-center"> Amr Saleh </h2>
+            <p class = "text-center"> Computer Scientist </p>
+
+            <!-- List -->
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-center" href="./index.html">
+                  <span data-feather="home"></span>
+                  Home 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center active" href="./blogs.html">
+                  <span data-feather="type"></span>
+                  Blogs <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="./resume.pdf" target="_tab">
+                  <span data-feather="file-text"></span>
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="mailto:amrsaleh129@gmail.com?Subject=Hello" target="_top">
+                  <span data-feather="mail"></span>
+                  Email
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="https://github.com/amrnator" target="_tab">
+                  <span data-feather="github"></span>
+                  Github
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="https://www.linkedin.com/in/amr-saleh-92069512a/" target="_tab">
+                  <span data-feather="linkedin"></span>
+                  Linkedin
+                </a>
+              </li>
             </ul>
         </nav>
-        <hr/>
 
-    	<!-- Blog List -->
+        <!-- Main -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h1">Blogs</h1>
+          </div>
 
-    	<div class="blog-list">
-            <ul>
-               <li>
-                    <a href="./Blogs/TestBlog.html">Test Blog plz ignore</a>
-                    <img src="./Images/test.png" alt="Girl in a jacket" style="object-fit:scale-down;float:right;width:128px;padding-right: 5%;"><br/>
-                    <span>why</span>
-                </li>
+          <div class="card-deck">
 
-                <li>
-                    <a href="./Blogs/TestBlog.html">nother one</a>
-                    <img src="./Images/test.png" alt="Girl in a jacket" style="object-fit:scale-down;float:right;width:128px;padding-right: 5%;"><br/>
-                    <span>why</span>
-                </li>
+            <!--Gale Crater-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="rover1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Gale Crater</h5>
+                <p class="card-text">A simple exercise in Unity and Blender where we create realistic Martian terrain from real life surface scans taken by Mars probes.</p>
+                <a href="#" class="btn btn-secondary disabled">Under Construction</a>
+              </div>
+            </div>
 
-            </ul>
-        </div>
-        <hr/>
+            <!--Unity and NuGet-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="rover1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Unity and NuGet</h5>
+                <p class="card-text">A useful lesson where we learn how to integrate Visual Studio's NuGet package manager with Unity.</p>
+                <a href="#" class="btn btn-secondary disabled">Under Construction</a>
+              </div>
+            </div>
 
-    	<!-- Footer -->
-    	<div class="footer">
-            <ul>
-                <li><i><a href="mailto:amrsaleh129@gmail.com?Subject=Hello" target="_top"> Email </a></i></li>
-                <li><i><a href="https://www.linkedin.com/in/amr-saleh-92069512a/" target="_tab"> LinkedIn</a></i></li>
-                <li><i><a href="https://github.com/amrnator" target="_tab"> Github </a></i></li>
-            </ul>
-        </div>
+            <!--Behavior Tree-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="rover1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Behavior Trees</h5>
+                <p class="card-text">A useful lesson where we learn how to integrate Visual Studio's NuGet package manager with Unity.</p>
+                <a href="#" class="btn btn-secondary disabled" >Under Construction</a>
+              </div>
+            </div>
+          </div>
 
-    </body>
+        </main>
+      </div>
+    </div>
 
-<html>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+  </body>
+</html>
